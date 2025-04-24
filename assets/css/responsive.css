@@ -5,32 +5,25 @@ Hero-Section-Responsive Start
 ===================================================*/
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
-}
+/***week1-section-end***/
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
 @media screen and (max-width: 480px) {
-
 }
 
 /*====================================================
@@ -44,31 +37,136 @@ Week1-Section-Responsive Start
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .weekly1-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px;
+    }
 
+    .weekly1-cont {
+        width: 100%;
+        height: 220px;
+
+        & img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+    }
 }
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
+    .weekly1-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .weekly1-cont {
+        width: 100%;
+        height: 220px;
+
+        & img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+    }
 }
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .weekly1-item {
+        flex-direction: column;
+        height: 980px;
+        justify-content: space-between;
+        margin: 20px;
 
+        .weekly1-cont {
+            width: 100%;
+            height: 320px;
+
+            & img {
+                width: 100%;
+                height: 320px;
+                object-fit: cover;
+            }
+
+            .weekly1-title {
+                line-height: 50px;
+
+                & p {
+                    font-size: 25px;
+                }
+
+                h4 {
+                    font-size: 35px;
+                }
+
+                .para {
+                    font-size: 22px;
+                }
+
+                & button {
+                    font-size: 25px;
+                    padding: 10px;
+                }
+            }
+
+        }
+    }
 }
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
 @media screen and (max-width: 767px) {
 
+    .weekly1-item {
+        flex-direction: column;
+        margin: 20px;
+
+        .weekly1-cont {
+            width: 100%;
+            height: 250px;
+
+            & img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+    }
 }
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
 @media screen and (max-width: 480px) {
+    
+    .weekly1-item {
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
 
+        .weekly1-cont {
+            width: 100%;
+            height: 200px;
+
+            & img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
 }
 
 /*================================================
@@ -81,33 +179,23 @@ New-arrivals-Section-Responsive Start
 ================================================*/
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
-@media screen and (max-width: 480px) {
-
-}
+@media screen and (max-width: 480px) {}
 
 /*=================================================
 New-arrivals-Section-Responsive End
@@ -119,33 +207,23 @@ Week2-Section-Responsive Start
 ====================================================*/
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
-@media screen and (max-width: 480px) {
-
-}
+@media screen and (max-width: 480px) {}
 
 /*====================================================
 Week2-Section-Responsive End
@@ -157,66 +235,46 @@ Featured-products-Section-Responsive Start
 ======================================================*/
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
-@media screen and (max-width: 480px) {
-
-}
+@media screen and (max-width: 480px) {}
 
 /*====================================================
 Best-sellers-Section-Responsive Start
 ======================================================*/
 
 /*--------------------BIG SCREEN (1200px - 1400px)------------*/
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /*------------------FOR LAPTOP (992px - 1199px)-------*/
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*---------------------- FOR TABLET (768px - 991px)-------------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*------------------FOR MOBILE (max-width: 767px)---------------------*/
 
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 /*---------------------FOR EXTRA SMALL MOBILE (max-width: 480px)--------------*/
 
-@media screen and (max-width: 480px) {
-
-}
+@media screen and (max-width: 480px) {}
 
 /*====================================================
 Best-sellers-Section-Responsive End
