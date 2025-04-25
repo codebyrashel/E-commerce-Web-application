@@ -1,0 +1,150 @@
+ 
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .popular-companies {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .popular-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .popular-header h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .popular-header p {
+      color: #777;
+      font-size: 12px;
+    }
+
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        padding: 6px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #777;
+        border-radius: 20px;
+    }
+
+    .view-all {
+      background: none;
+      border: none;
+      color: #444;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .company-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .company-card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 2px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .company-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .company-header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ddd;
+    }
+
+    .company-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .company-name {
+      font-weight: bold;
+    }
+
+    .featured {
+      font-size: 12px;
+      color: #777;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .company-desc {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .para::before{
+        content: "";
+        display: block;
+        background-color: #eee;
+        width: 100%;
+        height: 1px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+    }
+
+    .para p{
+        padding-top: 4px;
+        font-size: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .popular-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .popular-header h2,
+      .popular-header p {
+        font-size: 16px;
+      }
+    }
